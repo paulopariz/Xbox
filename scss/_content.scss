@@ -1,5 +1,29 @@
-.xbox{
-    margin-top: 280px;
+.xbox {
+    margin-top: 13.125rem;
+
+    .title-xbox {
+        position: relative;
+        text-align: center;
+        h1 {
+            margin-bottom: 3rem;
+            font-weight: 600;
+            font-size: 4.5rem;
+            line-height: 115%;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 29px;
+            letter-spacing: 0.05em;
+            color: #9BF00B;
+        }
+
+        img {
+            width: 69.4375rem;
+            margin-top: 3.875rem;
+        }
+    }
 }
 
 .bg-grenn {
@@ -9,6 +33,41 @@
     opacity: 0.7;
     border: 1px solid #000000;
     filter: blur(125px);
-    margin: 0 auto;
+    position: absolute;
+    margin-left: 65px;
+}
 
+.control {
+    margin-top: 18.75rem;
+    margin-bottom: 18.75rem;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 130%;
+            color: #9BF00B;
+        }
+
+        p {
+            margin-top: 2.5rem;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 170%;
+            color: #C0C0C0;
+            max-width: 31.5625rem;
+        }
+
+        img{
+            width: 27.1875rem;
+        }
+    }
+}
+
+.groupImg{
+    display: flex;
+    overflow: hidden;
+    
 }
