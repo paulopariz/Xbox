@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    ul{
+        display: flex;
+        li{
+            padding-right: 30px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+    button{
+        background-color: #9BF00B;
+        padding: 21px 30px;
+        color: #000000;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        border: none;
+        border-radius: 6px;
+        transition: ease .3s ;
+        &:hover{
+            background-color: #88cd10;
+        }
+    }
+}
