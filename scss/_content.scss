@@ -4,6 +4,7 @@
     .title-xbox {
         position: relative;
         text-align: center;
+
         h1 {
             margin-bottom: 3rem;
             font-weight: 600;
@@ -40,13 +41,15 @@
 .control {
     margin-top: 18.75rem;
     margin-bottom: 18.75rem;
+
     .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         h1 {
             font-weight: 600;
-            font-size: 64px;
+            font-size: 4.625rem;
             line-height: 130%;
             color: #9BF00B;
         }
@@ -60,14 +63,75 @@
             max-width: 31.5625rem;
         }
 
-        img{
-            width: 27.1875rem;
+        img {
+            width: 29.1875rem;
         }
     }
 }
 
-.groupImg{
+.groupImg {
     display: flex;
     overflow: hidden;
+    margin-bottom: 18.75rem;
+
+    .cardGame {
+        max-width: 38rem;
+
+        .image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .capa {
+            width: 100%;
+        }
+
+        .logo {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 2.8125rem;
+            width: 12.5rem;
+        }
+    }
+}
+
+.faq {
+    margin-bottom: 18.75rem;
+
+    .perguntas {
+        margin-bottom: 3.125rem;
+        p {
+            font-weight: 600;
+            font-size: 2.125rem;
+            line-height: 100%;
+            color: #9BF00B;
+            span{
+                color: #ffffff;
+            }
+        }
+    }
+
+    button {
+        color: #ffffff !important;
+        font-size: 19px;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .accordion-button{
+        padding: 26px !important;
+    }
+    
+    .accordion-body{
+        color: #C0C0C0;
+        margin-left: 30px;
+    }
+    .accordion{
+        --bs-accordion-border-color: #2E2E2E !important;
+        --bs-accordion-border-width: 2px !important;
+    }
     
 }
