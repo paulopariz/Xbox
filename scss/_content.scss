@@ -1,5 +1,4 @@
 .xbox {
-    display: none;
     margin-top: 13.125rem;
 
     .title-xbox {
@@ -22,22 +21,96 @@
         }
 
         img {
-            width: 69.4375rem;
+            width: 65.4375rem;
             margin-top: 3.875rem;
+        }
+    }
+
+    @media(max-width: 1200px){
+        .title-xbox{
+            img{
+                width: 45.4375rem;
+            }
+        }
+    
+    }
+
+    @media(max-width: 767px){
+        margin-top: 8.75rem;
+
+        .title-xbox{
+            h1{
+                font-size: 3.75rem;
+            }
+            span{
+                font-size: 1.25rem;
+            }
+            img{
+                width: 38.4375rem;
+            }
+        }
+    }
+
+    @media(max-width: 575px){
+        margin-top: 80px;
+        .title-xbox{
+            h1{
+                font-size: 2.8125rem;
+                margin-bottom: 1.75rem;
+            }
+            span{
+                font-size: 1.0625rem;
+            }
+            img{
+                width: 32.4365rem;
+    
+            }
+        }
+    }
+
+    @media(max-width: 510px){
+        .title-xbox{
+            img{
+                width: 22.4365rem;
+            }
         }
     }
 }
 
 .bg-grenn {
     width: 980px;
-    height: 482px;
+    height: 341px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(134, 207, 9, 0.258984) 20.31%, rgba(155, 240, 11, 0.3) 23.53%, rgba(0, 219, 0, 0.3) 35.42%, rgba(0, 123, 0, 0.3) 40.63%, rgba(0, 132, 0, 0.3) 49.51%);
     opacity: 0.7;
     border: 1px solid #000000;
     filter: blur(125px);
     position: absolute;
     margin-left: 65px;
-    display: none;
+    @media(max-width: 1200px){
+        width: 46.25rem;
+        margin-left: 5.3125rem;
+        height: 18.125rem;
+    }
+    @media(max-width: 991px){
+        width: 37.5rem;
+        margin-left: 3.75rem;
+        height: 19.6875rem;
+    }
+
+    @media(max-width: 767px){
+        width: 29.5rem;
+        margin-left: 4.75rem;
+        height: 18.6875rem;
+    }
+    @media(max-width: 575px){
+        width: 16.5rem;
+        margin-left: 4.75rem;
+        height: 17.6875rem;
+    }
+    @media(max-width: 510px){
+        width: 18.5rem;
+        height: 10.6875rem;
+    }
 }
 
 .control {
