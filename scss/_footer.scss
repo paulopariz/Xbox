@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    align-items: center;
+    display: none;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5.625rem;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 3.875rem;
+            margin-top: 18px;
+            li {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #777777;
+            }
+        }
+    }
+
+}

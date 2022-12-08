@@ -1,4 +1,5 @@
 .xbox {
+    display: none;
     margin-top: 13.125rem;
 
     .title-xbox {
@@ -36,12 +37,13 @@
     filter: blur(125px);
     position: absolute;
     margin-left: 65px;
+    display: none;
 }
 
 .control {
     margin-top: 18.75rem;
     margin-bottom: 18.75rem;
-
+    display: none;
     .container {
         display: flex;
         align-items: center;
@@ -73,7 +75,7 @@
     display: flex;
     overflow: hidden;
     margin-bottom: 18.75rem;
-
+    display: none;
     .cardGame {
         max-width: 38rem;
 
@@ -99,16 +101,18 @@
 }
 
 .faq {
-    margin-bottom: 18.75rem;
-
+    margin-bottom: 11.875rem;
+    display: none;
     .perguntas {
         margin-bottom: 3.125rem;
+
         p {
             font-weight: 600;
             font-size: 2.125rem;
             line-height: 100%;
             color: #9BF00B;
-            span{
+
+            span {
                 color: #ffffff;
             }
         }
@@ -117,21 +121,24 @@
     button {
         color: #ffffff !important;
         font-size: 19px;
+
         &:focus {
             box-shadow: none;
         }
     }
-    .accordion-button{
+
+    .accordion-button {
         padding: 26px !important;
     }
-    
-    .accordion-body{
+
+    .accordion-body {
         color: #C0C0C0;
         margin-left: 30px;
     }
-    .accordion{
+
+    .accordion {
         --bs-accordion-border-color: #2E2E2E !important;
         --bs-accordion-border-width: 2px !important;
     }
-    
+
 }

@@ -5,10 +5,17 @@ nav{
     margin-top: 2.5rem;
     ul{
         display: flex;
+        margin-top: 1.125rem;
+        padding-left: 0;
         li{
-            padding-right: 30px;
+            margin-right: 2.5rem;
             font-size: 14px;
             font-weight: 400;
+            cursor: pointer;
+            transition: ease .3s;
+            &:nth-child(4){
+                margin-right: 0;
+            }
         }
     }
     button{
@@ -25,4 +32,63 @@ nav{
             background-color: #88cd10;
         }
     }
+
+    @media(max-width: 991px){
+        display: grid;
+        justify-content: center;
+        img{
+            margin: auto;
+            margin-bottom: 25px;
+        }
+        ul{
+            margin-bottom: 75px;
+            li{
+                padding: 11px 21px;
+                background: rgba(103, 103, 103, 0.39);
+                border-radius: 40px;  
+                &:hover{
+                    background: rgba(79, 78, 78, 0.39);
+                }  
+            }
+        }
+        button{
+            font-size: 18px;
+            padding: 25px 34px;
+        }
+    }
+
+    @media(max-width: 767px){
+        img{
+            width: 6.25rem;
+        }
+        ul{
+            li{
+                margin-right: 52px;
+                font-size: 12px;
+            }
+            }
+        }
+      @media(max-width: 575px){
+        ul{
+            li{
+                margin-right: 25px;
+            }
+        }
+      }
+
+      @media(max-width: 510px){
+        ul{
+            margin-bottom: 55px;
+            li{
+                margin-right: 9px;
+                font-size:10px;
+                padding: 12px 16px;
+                
+            }
+        }
+        button{
+            padding: 12px 16px;
+            font-size: 15px;
+        }
+      }
 }
