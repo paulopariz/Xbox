@@ -116,17 +116,19 @@
 .control {
     margin-top: 18.75rem;
     margin-bottom: 18.75rem;
-    display: none;
     .container {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        h1 {
+        h1, span{
             font-weight: 600;
             font-size: 4.625rem;
             line-height: 130%;
             color: #9BF00B;
+        }
+        span{
+            color: white;
         }
 
         p {
@@ -140,6 +142,69 @@
 
         img {
             width: 29.1875rem;
+        }
+    }
+    @media(max-width: 1200px){
+        .container{
+            img{
+                width: 27.1875rem;
+            }
+            p{
+                font-size: 21px;
+            }
+            h1{
+                font-size: 4rem;
+            }
+        }
+        
+    }
+    @media(max-width: 991px){
+        .container{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            div{
+                text-align: center;
+            }
+            h1{
+                font-size: 4.625rem;
+            }
+            p{
+                font-size: 1.375rem;
+            }
+            img{
+                margin-top: 3.25rem;
+            }
+        }
+    }
+    @media(max-width: 575px){
+        margin-top: 11.75rem;
+        .container{
+            h1,span{
+                font-size: 2.8125rem;
+            }
+            p{
+                font-size: 1.25rem;
+                line-height: 130%;
+            }
+            img{
+                width: 19.9375rem;
+            }
+        }
+    }
+    @media(max-width: 510px){
+        .container{
+            line-height: 130%;
+            h1,span{
+                font-size: 2.1875rem;
+            }
+            p{
+                font-size: 1.125rem;
+                line-height: 130%;
+            }
+            img{
+                width: 15.1875rem;
+            }
         }
     }
 }
