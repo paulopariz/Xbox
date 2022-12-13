@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/main.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,7 @@
 <body>
     <div class="nav">
         <div class="container">
-            <nav>
+            <nav data-aos="fade-down">
                 <img src="assets/logo-xbox.svg" alt="Logo Xbox">
                 <div>
                     <ul>
@@ -47,58 +48,62 @@
     <div class="xbox">
         <div class="container">
             <div class="bg-grenn"></div>
-            <div class="title-xbox">
+            <div class="title-xbox" data-aos="zoom-in">
                 <h1>Xbox series X</h1>
                 <span>PEDIDO ANTECIPADO</span>
-                <img src="./assets/xbox.svg" alt="Xbox">
+                <img src="./assets/xbox.svg" alt="Xbox" data-aos="fade-up">
             </div>
         </div>
     </div>
     <div class="control">
         <div class="container">
-            <div>
+            <div data-aos="fade-right">
                 <h1>Desempenho<br>
                     <span>aperfeiçoado</span></h1>
                 <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo
                     para um favorito comum.</p>
             </div>
             <div>
-                <img src="assets/controle-xbox.svg" alt="Controle Xbox">
+                <img src="assets/controle-xbox.svg" alt="Controle Xbox" data-aos="fade-left">
             </div>
         </div>
     </div>
     <div class="groupImg">
         <div class="cardGame">
-            <div class="image">
+            <div class="image" data-aos="fade-up"
+    data-aos-duration="3000">
                 <img class="capa" src="assets/farcry6.png" alt="">
                 <img class="logo" src="assets/farcry-logo.svg" alt="">
             </div>
         </div>
         <div class="cardGame">
-            <div class="image">
+            <div class="image" data-aos="fade-up"
+    data-aos-duration="3000">
                 <img class="capa" src="assets/forza-horizon.png" alt="">
                 <img class="logo" src="assets/Forza_Horizon 1.svg" alt="">
             </div>
         </div>
         <div class="cardGame">
-            <div class="image">
+            <div class="image" data-aos="fade-up"
+    data-aos-duration="3000" >
                 <img class="capa" src="assets/fifa.png" alt="">
                 <img class="logo" src="assets/fifa-logo.svg" alt="">
             </div>
         </div>
         <div class="cardGame">
-            <div class="image">
+            <div class="image" data-aos="fade-up"
+    data-aos-duration="3000" >
                 <img class="capa" src="assets/minecraft.png" alt="">
-                <img class="logo" src="assets/minecraft 1.svg" alt="">
+                <img class="logo" src="assets/minecraft 1.svg" alt="" >
             </div>
         </div>
     </div>
     <div class="faq">
       <div class="container">
-        <div class="perguntas">
+        <div class="perguntas" data-aos="fade-right">
           <p>Perguntas <span>frequentes</span></p>
         </div>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion accordion-flush" id="accordionFlushExample" data-aos="fade-down">
           <div class="accordion-item border-cyan bg-transparent">
             <h2 class="accordion-header" id="flush-headingOne">
               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -134,9 +139,9 @@
     </div>
     <footer>
       <div class="container">
-        <div><img src="assets/logo-xbox.svg" alt=""></div>
+        <div><img src="assets/logo-xbox.svg" alt="" data-aos="fade-up-right"></div>
         <div>
-          <ul>
+          <ul data-aos="fade-up-left">
             <li>© Microsoft 2022</li>
             <li>Todos os direitos reservados</li>
           </ul>
@@ -144,6 +149,7 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

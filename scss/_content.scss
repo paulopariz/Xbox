@@ -81,7 +81,7 @@
     width: 980px;
     height: 341px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(134, 207, 9, 0.258984) 20.31%, rgba(155, 240, 11, 0.3) 23.53%, rgba(0, 219, 0, 0.3) 35.42%, rgba(0, 123, 0, 0.3) 40.63%, rgba(0, 132, 0, 0.3) 49.51%);
-    opacity: 0.7;
+    opacity: 0.5;
     border: 1px solid #000000;
     filter: blur(125px);
     position: absolute;
@@ -319,6 +319,7 @@
         }
     }
     @media(max-width: 575px){
+        margin-bottom: 7.8rem;
         .perguntas p{
             font-size: 1.75rem;
         }
